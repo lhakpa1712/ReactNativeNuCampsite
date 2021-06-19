@@ -54,7 +54,7 @@ const MainNavigator = createDrawerNavigator(
     }
 );
 
-const AppNavigator = createAppContainer(DirectoryNavigator);
+const AppNavigator = createAppContainer(MainNavigator);
 
 class Main extends Component{
 
