@@ -14,13 +14,12 @@ function Directory(props) {
         )
     }
     return (
-        <div>
+        
             <Flatlist
                 data={props.campsites}
                 renderItem={renderDirectoryItem}
                 keyExtractor={item => item.id.toString()}
             />
-        </div>
     );
 }
 
