@@ -10,8 +10,7 @@ function RenderItem({item}) {
         return (
             <Card
                 featuredTitle={item.name}
-                image={require('./images/react-lake.jpg')}
-            >
+                image={require('./images/react-lake.jpg')}>
                 <Text style={{margin: 10}}>
                     {item.description}
                 </Text>
@@ -19,7 +18,7 @@ function RenderItem({item}) {
         );
     }
     return <View />;
-}
+} 
 
 class Home extends Component {
 

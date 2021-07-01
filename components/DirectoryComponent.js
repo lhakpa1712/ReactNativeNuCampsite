@@ -22,19 +22,19 @@ class Directory extends Component{
                 <ListItem
                     title={item.name}
                     subtitle={item.description}
-                    onPress={()=>navigate('CampsiteInfo', { campsiteId: item.id })}
+                    onPress={()=> navigate('CampsiteInfo', { campsiteId: item.id })}
                     leftAvatar={{source: require('./images/react-lake.jpg')}}
                 />
             )
         }
-    return (
-        
+    
+        return (
             <Flatlist
                 data={this.state.campsites}
                 renderItem={renderDirectoryItem}
                 keyExtractor={item => item.id.toString()}
             />
-    );
+         );
     }
 }
 export default Directory;
