@@ -30,7 +30,7 @@ class About extends Component {
                 <ListItem
                     title={item.name}
                     subtitle={item.description}
-                    leftAvatar={{source: require('./images/bootstrap-logo.jpg')}}
+                    leftAvatar={{source: require('/Users/lhakpalama/Desktop/NucampFolder/4-React-Native.nosync/nucampsite/components/images/bootstrap-logo.png')}}
                 />
             );
         };
